@@ -2,7 +2,7 @@
 	
 	echo "PDO OCI CONN";
 	
-	echo $dbh = new PDO('oci:dbname=10.0.30.105:1521', 'elibrary', 'elibrary@123');
+	echo $dbh = new PDO('oci:dbname=127.0.0.1:1521', 'username', 'passwd');
 	
 	 print_r($dbh);
 	 
