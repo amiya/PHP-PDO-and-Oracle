@@ -11,8 +11,8 @@
 $tns = "oci:dbname=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = PC61.tvista-bd.com)(PORT = 1521)))
 		(CONNECT_DATA = (SID = tvl11g)(SERVER = DEDICATED)))";		   
 	   
-$db_username = "CLA_MOPA";
-$db_password = "CLA_MOPA";
+$db_username = "username";
+$db_password = "passwd";
 
 
 try{
