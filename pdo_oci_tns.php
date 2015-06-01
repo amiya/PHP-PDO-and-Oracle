@@ -12,15 +12,15 @@
 //		(CONNECT_DATA = (SID = tvl11g)(SERVER = DEDICATED)))";		   
 
 $tns = "oci:dbname=(DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST =127.0.0.1)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST =localhost)(PORT = 1521))
     (CONNECT_DATA =
       (SERVER = DEDICATED)
-      (SERVICE_NAME = paccpg)
+      (SERVICE_NAME = ora11g)
     ))";		   
 
 	   
-$db_username = "username";
-$db_password = "passwd";
+$db_username = "DB_USER_NAME";
+$db_password = "DB_PASSWORD";
 
 
 try{
