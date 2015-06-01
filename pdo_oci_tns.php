@@ -35,6 +35,7 @@ echo "<br />-----------------------<br />";
 print_r($dbc);
 // var_dump($dbc);
 echo "<br />-----------------------<br />";
+echo "<br />-----------------------<br />";
 
 //$sth = $dbc->prepare("SELECT ID, SURNAME FROM TBL_AUTHOR");
 $sth = $dbc->prepare("SELECT USER_ID, PASSWORD FROM TBL_USER");
